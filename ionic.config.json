@@ -1,0 +1,7 @@
+{
+  "name": "ion-calc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
