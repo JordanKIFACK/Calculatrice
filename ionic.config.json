@@ -1,7 +1,10 @@
 {
   "name": "ion-calc",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
   },
   "type": "angular"
 }

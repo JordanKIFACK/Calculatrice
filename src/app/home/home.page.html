@@ -1,7 +1,7 @@
 <ion-grid>
   <ion-row>
     <ion-col size="12" color="primary">
-      <ion-label class="display">
+      <ion-label class="display affiche">
         {{ display | number : '.0-8'}}
       </ion-label>
     </ion-col>
@@ -31,12 +31,13 @@
         %
       </ion-button>
     </ion-col>
+
     <ion-col size="3">
       <ion-button
-        (click)="clickOperator('/')"
+        (click)="clickOperator('+')"
         size="large"
         expand="full">
-        /
+        <ion-icon size="large" name="add"></ion-icon>
       </ion-button>
     </ion-col>
   </ion-row>
@@ -44,32 +45,32 @@
   <ion-row>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(7)"
+        (click)="clickNumber(1)"
         size="large"
-        expand="full">7</ion-button>
+        expand="full">1</ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(8)"
+        (click)="clickNumber(2)"
         size="large"
         expand="full">
-        8
+        2
       </ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(9)"
+        (click)="clickNumber(3)"
         size="large"
         expand="full">
-        9
+        3
       </ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickOperator('*')"
+        (click)="clickOperator('-')"
         size="large"
         expand="full">
-        <ion-icon size="large" name="close"></ion-icon>
+        <ion-icon size="large" name="remove"></ion-icon>
       </ion-button>
     </ion-col>
   </ion-row>
@@ -99,12 +100,13 @@
         6
       </ion-button>
     </ion-col>
+
     <ion-col size="3">
       <ion-button
-        (click)="clickOperator('-')"
+        (click)="clickOperator('*')"
         size="large"
         expand="full">
-        <ion-icon size="large" name="remove"></ion-icon>
+        <ion-icon size="large" name="close"></ion-icon>
       </ion-button>
     </ion-col>
   </ion-row>
@@ -112,38 +114,41 @@
   <ion-row>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(1)"
+        (click)="clickNumber(7)"
         size="large"
         expand="full">
-        1
+        7
       </ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(2)"
+        (click)="clickNumber(8)"
         size="large"
         expand="full">
-        2
+        8
       </ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickNumber(3)"
+        (click)="clickNumber(9)"
         size="large"
         expand="full">
-        3
+        9
       </ion-button>
     </ion-col>
     <ion-col size="3">
       <ion-button
-        (click)="clickOperator('+')"
+        (click)="clickOperator('/')"
         size="large"
         expand="full">
-        <ion-icon size="large" name="add"></ion-icon>
+        /
       </ion-button>
     </ion-col>
+
+
+
   </ion-row>
-  
+
   <ion-row>
     <ion-col size="3">
       <ion-button

@@ -45,16 +45,12 @@ export class HomePage {
   }
 
   calculate() {
-    // tslint:disable-next-line:no-eval
-    // console.log('calculate inicio');
-    // console.log('' + '' + this.memory + this.operator + '(' + this.display + ')');
     this.display = eval('' + this.memory + this.operator + '(' + this.display + ')');
     this.memory = 0;
     this.state = 'result';
     this.operator = '+';
     this.decimal = false;
     this.decimals = 0;
-    // console.log('calculate fin');
   }
 
   resetLastNumber() {
