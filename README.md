@@ -4,7 +4,7 @@ calculatrice version mobile avec IONIC
 ===========================================CLONER LE DEPOT SUR VOTRE PC=============
 
 [1]-Aller dans le reportoire ou vous desirez cloner le projet 
-[2]- Executer la comnde : $ git clone https://https://github.com/JordanKIFACK/Calculatrice.git
+[2]- Executer la comnde : $ git clone -b master https://https://github.com/JordanKIFACK/Calculatrice.git
 
 =================INSTALLATION DES DEPENDANCES============
 
